@@ -1,0 +1,33 @@
+</head>
+<body>
+    <iframe src="https://www.hurriyet.com" width="500px" height="500px"></iframe> 
+    <form method="POST" action="kaydet.php">
+        <label for="adi">Adi:</label>
+        <input type="text" name="adi" id="adi">
+        <label for="soyadi">Soyadi:</label>
+        <input type="text" name="soyadi" adi="soyadi">
+        <input type="submit" value="kaydet">
+
+    </form>
+    <form method="POST" action=kontrol.php>
+    <input type="text" id="eposta">
+    <input type="text" id="sifre">
+    <input type="checkbox" id="okudum" name="okudum">
+    <label for="okudum">Okudum Anladim</label>
+    <input type="radio" id="cinsiyet" id="cinsiyet" value="erkek">
+    <label>erkek</label>
+    <input type="radio" id="cinsiyet" id="cinsiyet" value="kadin">
+    <label>kadin</label>
+    <textarea columns="15"></textarea>
+    <input type="reset" value="Temizle">
+    <input type="submit" value="giriş">
+    <select id="bölüm_Seç" name="bölüm_Seç">
+        <option>lütfen bölüm seçiniz</option>
+        <option value="YBS">YBS</option>
+        <option value="İktisat">İktisat</option>
+        <option value="Ekonometri">Ekonometri</option>
+    </select>
+    </form>
+
+</body>
+</html>
