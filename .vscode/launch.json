@@ -7,8 +7,9 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open link2.html",
-            "file": "c:\\Users\\EXCALIBUR\\Desktop\\prog\\WEB_TASARIM\\link2.html"
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }

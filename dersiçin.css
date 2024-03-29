@@ -1,0 +1,16 @@
+body{
+    background-color:brown
+}
+h1,h2{
+    color: yellow;
+}
+
+#p_bir{
+    font-size: 28px;
+}
+
+.kutu{
+    width: 250px;
+    height: 250px;
+    color: blueviolet;
+}
