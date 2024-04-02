@@ -1,0 +1,29 @@
+#kutu1{
+    background-color:red;
+    width: 250px;
+    height: 250px;
+}
+
+#kutu2{
+    background-color: orange;
+    width: 250px;
+    height: 250px;
+}
+
+#kutu3{
+    background-color: green;
+    width: 250px;
+    height: 250px;
+}
+
+/**BU ÖZELLİKLER GÜNLÜK HAYATTA EN ÇOK TARİH İÇİN KULLANILIR
+BAŞA VE SONA EKLETME
+p::before{
+    content: "YBS";
+    color: orange;
+}
+
+p::after{
+    content: "YBS";
+    color: orange;
+}

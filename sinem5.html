@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /** STYLE İÇİNDE YAZDIĞIMIZ H2DEN SONRA GELEN
+            P ETİKETİNİ SEÇMEK İÇİN KULLANILIR DİREKT P 
+            ETİKETİNİN YAZILMAMA SEBEBİ H2DEN SONRA GELEN
+            P LERİN DEĞİŞTİRİLMEK İSTENMESİDİR.
+            h2+p{
+                font-size: large;
+                color: pink;
+            /** H2 EM H2NİN İÇİNDEKİ TÜM EMLERİ SEÇER
+            H2>EM H2NİN İÇİNDE DİREKT EM VARSA SEÇER
+            H2 STRONG>EM DİREKT H2 İÇİNDEN SEÇİLEN ELEMANA BAKAR
+            }
+            h2 em{
+                color: blue;
+            }
+            h2 >em{
+                color: red;
+            }
+            h2 strong >em{
+                color: green;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h2>BU BİR İKİNCİ <em>dereceden metin</em></h2>
+        <p>Lorem İpsum</p>
+        <h2>Bu bir <strong><em>paragraftır</em></strong></h2>
+        <h2>BU BİR İKİNCİ <em>dereceden metin</em></h2>
+        <p>Lorem İpsum</p>
+    </body>
+</html>
