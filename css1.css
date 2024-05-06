@@ -1,24 +1,44 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <style>
-            h1{
-                color: aqua;
-                font-size: 30px;
-            }
-            p{
-                color:blueviolet;
-                font-size: 14px;
-            }
-        </style>
-    </head>
-    <body>
-        <h1>Satır İçi CSS</h1>
-        <p>
-            Sinem Durak
-        </p>
-        <p>
-            Kayra Kaya
-        </p>
-    </body>    
-</html>
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: transparent;
+    
+}
+
+.logo_yazi{
+    color: rgb(16, 3, 92);
+    font-size: 32px;
+}
+
+.form_kutusu{
+    width: 360px;
+    height: 465px;
+    background-color: rgb(255,255,255);
+    border: 0 solid rgb(0, 0, 0);
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgb(0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+}
+
+.signin_yazi{
+    margin: 5px;
+    color: #666;
+}

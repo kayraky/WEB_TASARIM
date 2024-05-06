@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    background-color: transparent;
+    
+}
+.logo_yazi{
+    color: rgb(16, 3, 92);
+    font-size: 32px;
+}
+
+.form_kutusu{
+    width: 360px;
+    height: 465px;
+    background-color: rgb(255, 255, 255);
+    border: 0 solid rgb(0,0,0, .255);
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.signin_yazi{
+    margin: 5px;
+    color: #666;
+}
+
+.input-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border: 1px solid #ced4da;
+    height: 38px;
+    padding-right: 10px;
+}
+
+.input-group input{
+    height: 38x;
+    width: 280px;
+    color: #495057;
+    border:1px solid #ced4da;
+    border-radius: 3px;
+    padding-left: 10px;
+    border-right-style: none;
+}
+
+.input-group i{
+    color: #495057;
+}
+
+.Remember_kutu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.remember{
+    width: 270px;
+    color: #666;
+    display: flex;
+    align-items: center;
+}
+
+.remember input{
+    background-color: blue;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.Remember_kutu button{
+    background-color: #0069d9;
+    width: 97px;
+    height: 38px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #fff;
+    border-color: #0062cc;
+}
+
+.Remember_kutu button:hover{
+    background-color: #0069d9;
+
+}
+
+.remember label{
+    font-size: 16px;
+}
+
+.social_kutu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_kutu button{
+    width: 90%;
+    height: 35px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: 0 solid #fff;
+    color: #fff;
+    font-size: 15px;
+
+}
+
+.facebook_button{
+    background-color: #0062cc;
+
+}
+
+.google_button{
+    background-color: crimson;
+
+}
+.social_kutu p{
+    margin-bottom: 15px;
+}
+.social_kutu i{
+    margin-right: 10px;
+}
+
+.linkler{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 90%;
+}
+
+.linkler a{
+    text-decoration: none;
+}
